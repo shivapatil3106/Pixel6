@@ -1,0 +1,22 @@
+name: my_flutter_app
+description: A Flutter application to list users with pagination, sorting, and filtering.
+
+version: 1.0.0+1
+
+# Environment SDK version constraints.
+environment:
+  sdk: ">=2.17.0 <3.0.0"  # Specifies the Dart SDK version range compatible with this project.
+
+dependencies:
+  flutter:
+    sdk: flutter  # Flutter framework dependency for building the application.
+  provider: ^6.0.5  # State management library for managing the app's state.
+  http: ^1.2.2  # HTTP package for making network requests to fetch user data.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # Provides the Flutter test framework for writing and running tests.
+
+flutter:
+  uses-material-design: true  # Enables the use of Material Design components in the app.
+
